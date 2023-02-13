@@ -109,7 +109,8 @@ public class MainActivity extends AppCompatActivity {
 
                                                     // Go to ListActivity after successfully login
 
-                                                    startActivity(new Intent(MainActivity.this, AddJournalActivity.class));
+                                                   // startActivity(new Intent(MainActivity.this, AddJournalActivity.class));
+                                                    startActivity(new Intent(MainActivity.this, JournalListActivity.class));
                                                 }
                                             }
                                         }
